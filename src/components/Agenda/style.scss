@@ -32,3 +32,37 @@
   @include title-text;
   color: $blackColor;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.deptview {
+  @include body-medium-text;
+  color: $blackColor;
+  padding: 7px;
+  border-radius: 8px;
+  margin: auto 9px;
+  width: max-content;
+  height: max-content;
+  background-color:rgba($grayColor, 0.3);
+  cursor: pointer;
+  align-text: center;
+}
+
+.cals {
+  @include caption-medium-text;
+}
+
+.menu {
+  @include caption-medium-text;
+  color: $blackColor;
+  float: right;
+  border-radius: 8px;
+  padding: 7px;
+  margin: 0 9px;
+  background-color: rgba($grayColor, 0.3);
+}
